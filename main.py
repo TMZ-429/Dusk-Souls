@@ -19,6 +19,8 @@ DEBUG = 0
 #Make the break rooms heal you to full
 #Stat reset option
 #Make inventory system a menu
+#Prevent players from engaging enemies without an equipped weapon
+#Add enemies that prevent you from leaving the area or saving before killing them (No saving in their square to prevent soft-locks)
 #Make it so there's no image directly set for an enemy encounter, but rather the first enemy in the array of enemies has its image used
 #Finish the secondary route (Demon Dragon boss fight)
 #Maybe make it so instead of iterating through every room, rooms are just named {xy}, with x & y being the player's current coordinates (If done correctly, could save extreme time complexity)
