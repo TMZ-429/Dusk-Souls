@@ -7,8 +7,6 @@ from curses.textpad import Textbox, rectangle
 
 HEIGHT = 24
 WIDTH = 80
-#enter = 10
-#chr(char) = the character
 
 global DEBUG
 DEBUG = 0
