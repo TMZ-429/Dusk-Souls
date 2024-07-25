@@ -13,13 +13,19 @@ WIDTH = 80
 global DEBUG
 DEBUG = 0
 #Setting this to 1 will cause the game to skip all text writing and print things out instantly
-#You can also flip this variable without changing it by making your save's name 'rebug' 
+#You can also flip this variable without changing it by making your save name 'rebug' 
 
 #TODO:
-#Make the max_health / health system
+#Make the max_health / current_health system for outside of battles
 #Make the break rooms heal you to full
-#Stat reset button
+#Stat reset option
 #Make inventory system a menu
+#Make it so there's no image directly set for an enemy encounter, but rather the first enemy in the array of enemies has its image used
+#Finish the secondary route (Demon Dragon boss fight)
+#Maybe make it so instead of iterating through every room, rooms are just named {xy}, with x & y being the player's current coordinates (If done correctly, could save extreme time complexity)
+#Rebalance items/enemy fights so each weapon type is viable
+#Fix items/enemy encounters that are considered in the same direction as the exit of a room
+# ^-What if there were secondary direction descriptions that are allocated to items/enemies and they change when you collect the item or beat the enemy, with the default if it's not defined being 'nothing of interest'
 
 ###################################
 #CUSTOM FUNCTIONS FOR ROOM OBJECTS#
