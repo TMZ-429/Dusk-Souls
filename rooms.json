@@ -1,0 +1,1177 @@
+{
+    "rooms": [
+        {
+            "coordinates": [0, 0],
+            "text": "You awaken in a cell, the gate North of you is open\nA small torch East from you vaguely illuminates the room.\nYou can see the silhouette of something on the wall to the West",
+            "items": [
+                {
+                    "item": {
+                        "name": "dulled_katana",
+                        "location": "west"
+                    },
+                    "type": "weapons",
+                    "aliases": [
+                        "katana",
+                        "sword"
+                    ]
+                }
+            ],
+            "exits": [
+                "north"
+            ],
+            "image": "cell",
+            "west": "On the wall to the West you see the silhouette of a katana",
+            "east": "A small torch -- it looks like it's been burning for a while.\nIt looks as if it could die at any moment...\nYet still carries on.",
+            "north": "An open doorway.\nPerhaps whatever you're in this cell for has run its course.",
+            "south": "A wall you've been resting on for a while.\nDon't look too close or you'll feel disgusted for resting on it."
+        },
+        {
+            "coordinates": [0, 1],
+            "text": "You enter a stairwell leading down (North).\nThe room you've arrived in splits off,\nto a room to the East and one to the West.",
+            "north": "You see a mural illuminated by torchlight.\nMost of it has worn away,\nbut you can still see what's left of a radiant-blue blade.",
+            "west": "Beyond the doorway is what looks like Greek architecture...\nYou can see pillars holding up the ceiling in the dim room.",
+            "east": "A doorway leading to what looks like the interior of a colosseum.",
+            "south": "The stairs lead upwards to the prison chamber you awakened in",
+            "image": "origin-split",
+            "exits": [
+                "south",
+                "west",
+                "east"
+            ]
+        },
+        {
+            "coordinates": [1, 1],
+            "text": "The room before you looks like a small combat arena.\nYou can see what remains of a mighty greatsword before you.\nThere are also two monsters to your east",
+            "north": "The rusted remains of a greatsword are firmly planted into the ground.\nBeyond that is the exit.",
+            "east": "Three monsters eye you with contempt;\nThey look like they could strike at any moment",
+            "west": "The entrance to the split path you came from",
+            "south": "The bloodstained walls of this arena tell a story of years of brutal violence.",
+            "image": "colosseum",
+            "enemies": {
+                "location": "north",
+                "image": "ghoul",
+                "enemies": [ "ghoul", "zombie", "ghoul" ],
+                "aliases": [
+                    "monsters",
+                    "ghoul",
+                    "zombie"   
+                ]
+            },
+            "items": [
+                {
+                    "item": {
+                        "name": "rusty_zweihander",
+                        "location": "north"
+                    },
+                    "type": "weapons",
+                    "aliases": [
+                        "greatsword",
+                        "sword",
+                        "zweihander",
+                        "great sword"
+                    ]
+                }
+            ],
+            "exits": [
+                "west",
+                "north"
+            ]
+        },
+        {
+            "coordinates": [1, 2],
+            "text": "You enter a small room.\nThere's an exit to the west",
+            "north": "A small potion lays on a table",
+            "west": "An open doorway",
+            "east": "Nothing of interest",
+            "south": "The column-filled room you entered from",
+            "image": "empty-room",
+            "items": [
+                {
+                    "item": {
+                        "name": "potion",
+                        "location": "north"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "bottle",
+                        "potion"
+                    ]
+                }
+            ],
+            "exits": [
+                "south",
+                "west"
+            ]
+        },
+        {
+            "coordinates": [-1, 1],
+            "text": "You enter a dimly-lit room full of columns which hold up the ceiling.\nYou can see a Greek broadhead spear between two pillars North of you.",
+            "north": "A 'dory' with a cracked broadhead held between two columns.\nBeyond that is the exit.",
+            "west": "Two monsters sitting by the remains of another human.\nYou can tell they'll strike you if you try to leave.",
+            "east": "The entrance to the split path you came from",
+            "south": "A mural telling the story of Leonidus,\nwho grazed King Xerxes with the throw of his spear.\n",
+            "image": "greek-ruins",
+            "enemies": {
+                "location": "west",
+                "image": "wolf",
+                "enemies": [ "wolf", "ghoul" ],
+                "aliases": [
+                    "monsters",
+                    "ghoul"
+                ]
+            },
+            "items": [
+                {
+                    "item": {
+                        "name": "cracked_spear",
+                        "location": "north"
+                    },
+                    "type": "weapons",
+                    "aliases": [
+                        "spear",
+                        "broadhead",
+                        "cracked broadhead",
+                        "dory"
+                    ]
+                }
+            ],
+            "exits": [
+                "east",
+                "north"
+            ]
+        },
+        {
+            "coordinates": [-1, 2],
+            "text": "You enter a small room.\nThere's an exit to the east",
+            "north": "A small potion lays on a table",
+            "west": "Nothing of interest",
+            "east": "An open doorway",
+            "south": "The column-filled room you entered from",
+            "image": "empty-room",
+            "items": [
+                {
+                    "item": {
+                        "name": "potion",
+                        "location": "north"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "bottle",
+                        "potion"
+                    ]
+                }
+            ],
+            "exits": [
+                "south",
+                "east"
+            ]
+        },
+        {
+            "coordinates": [0, 2],
+            "text": "You enter a small hallway,\nthere's an exit North",
+            "north": "An open doorway leading to somewhere indescernable",
+            "west": "A rather odd lounge",
+            "east": "A quaint little break room",
+            "south": "A large brick wall",
+            "image": "empty-hall",
+            "exits": [
+                "north",
+                "east",
+                "west"
+            ]
+        },
+        {
+            "coordinates": [0, 3],
+            "text": "You enter a well-lit and grand hallway\nThe walls and floor look almost as if they were made of gold.\nThe North is guarded by two gargantuan skeletons:\nYou can't tell if they're animate or not",
+            "north": "A large gateway with a green and red keyhole",
+            "east": "A door that looks to lead to a very dark room.\nIt has an emblem of a canvas on it",
+            "west": "A door that looks to lead to a dark room.\nThis one has the emblem of an alchemist's laboratory on it.",
+            "south": "The hallway you entered from",
+            "image": "grand-hallway",
+            "enemies": {
+                "location": null,
+                "image": "skeleton",
+                "enemies": [ "skeleton", "skeleton" ],
+                "aliases": [
+                    "skeleton",
+                    "skeletons",
+                    "monsters",
+                    "giants"
+                ]
+            },
+            "objects": [
+                {
+                    "aliases": [
+                        "door",
+                        "gate",
+                        "gateway"
+                    ],
+                    "function": "open_blue_red_door"
+                }
+            ],
+            "exits": [
+                "east",
+                "west",
+                "south"
+            ]
+        },
+        {
+            "coordinates": [-1, 3],
+            "text": "You enter a dim room with texts and tools of the dark arts scattered about.\nThere's a desk North of you that has a red key behind a statue of a Sphinx.",
+            "north": "A statue of a Sphinx is on the desk,\nsurrounded by miscellaneous alchemy equipment.\nYou can see the inanimate sphinx statue...gazing at you.\nPerhaps you should operate it to see what it wants.",
+            "south": "Bookshelves litter the southern half of this lab:\nEach filled with great tomes on alchemy, witchcraft and other esoteric crafts.",
+            "west": "You see a cell...It looks moist, dark and abandoned.",
+            "east": "The entrance back to the hallway you came from.",
+            "image": "alchemy-lab",
+            "objects": [
+                {
+                    "aliases": [
+                        "sphinx",
+                        "statue",
+                        "sphinx statue"
+                    ],
+                    "function": "sphinx_riddle"
+                }
+            ],
+            "exits": [ "east" ]
+        },
+        {
+            "coordinates": [-2, 3],
+            "text": "You awaken in a dark and mouldy cell...\nThere's an open gate to the east.\nHowever, there's a wolf growling - ready to pounce, looking directly at you.",
+            "north": "A wolf-like creature -- crouched down, gazing upon you with its fangs bared.",
+            "south": "Chains coated in a perpetually moving substance hang from the walls.\nYou can also see a shortsword ",
+            "west": "A wall containing many defiled skeletons.\nNot an inch of the bones has a single piece of white;\n It's all coated in black sludge.",
+            "east": "A gateway to the alchemy room",
+            "image": "cell",
+            "enemies": {
+                "location": "north",
+                "image": "wolf",
+                "enemies": [ "wolf", "skeleton" ],
+                "aliases": [
+                    "skeleton",
+                    "wolf",
+                    "monsters",
+                    "dog",
+                    "dawg",
+                    "doggie",
+                    "doggy"
+                ]
+            },
+            "items": [
+                {
+                    "item": {
+                        "name": "spatha",
+                        "location": "south"
+                    },
+                    "type": "weapons",
+                    "aliases": [
+                        "sword",
+                        "spatha",
+                        "short-sword",
+                        "shortsword"
+                    ]
+                }
+            ],
+            "exits": [ "east" ]
+        },
+        {
+            "coordinates": [1, 3],
+            "text": "You enter a small art gallery:\nPaintings litter the walls,\nyou can operate the paintings to collect all of them.",
+            "north": "The wall at the end of the gallery has several hooks for hanging paintings.\nA wooden panel has the following carved on it:\n\"From cradle to grave, a series of works\"",
+            "west": "The grand hallway you came from",
+            "east": "A series of paintings",
+            "south": "Assorted artworks -- they all look quite exquisite.",
+            "image": "art-gallery",
+            "objects": [
+                {
+                    "aliases": [
+                        "paintings",
+                        "painting"
+                    ],
+                    "function": "get_random_paintings"
+                },
+                {
+                    "aliases": [
+                        "hooks",
+                        "panel",
+                        "wood panel",
+                        "wooden panel"
+                    ],
+                    "function": "painting_puzzle"
+                }
+            ],
+            "exits": [ "west" ]
+        },
+        {
+            "coordinates": [0, 4],
+            "text": "You enter what looks like a break room:\nThere're 2 potions neatly placed on a tea table.\nYou can also see three diverging doors.",
+            "north": "An iron door emblazoned with the emblem of a helmet & a soup ladle.",
+            "west": "An iron door with several cut chains and locks on it.\nIt looks broken and remains open.",
+            "east": "A wooden doorway that looks as if it's been broken down\nand rebuilt a myriad of times.",
+            "image": "empty-room",
+            "exits": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ],
+            "items": [
+                {
+                    "item": {
+                        "name": "potion",
+                        "location": null
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "potion",
+                        "bottle"
+                    ]
+                },
+                {
+                    "item": {
+                        "name": "potion_high",
+                        "location": null
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "potion",
+                        "bottle"
+                    ]
+                }
+            ]
+        },
+        {
+            "coordinates": [1, 4],
+            "text": "You enter a dark hall...\nThere's an uncomfortably low shuffling sound that can be heard to the east.",
+            "north": "Dark stone pillars hold up the ceiling.\nYou can see torches attached to them",
+            "south": "You see a potion laying on the ground",
+            "east": "A slightly ajar iron door...\nIt leads to the source of the shuffling",
+            "west": "The entrance to the tea room",
+            "image": "empty-hall",
+            "items": [
+                {
+                    "item": {
+                        "name": "potion",
+                        "location": "south"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "potion",
+                        "bottle"
+                    ]
+                }
+            ],
+            "exits": [
+                "west",
+                "east"
+            ]
+        },
+        {
+            "coordinates": [2, 4],
+            "text": "You enter the torture chamber.\nThe room allows for you to move to the north and east.",
+            "north": "You can see two silhouettes flickering;\nThey move in & out of sight like candles.",
+            "east": "You can see some form of mechanical device illuminated by torchlight.",
+            "south": "A brick lined with torches & stained with blood lays before you",
+            "image": "torture-room-1",
+            "exits": [
+                "west",
+                "east",
+                "north"
+            ]
+        },
+        {
+            "coordinates": [3, 4],
+            "text": "You enter one sect of then torture chamber\nTo the South is some sort of mechanism.\nIt looks like there's something large to the North as well.",
+            "south": "Before you is a gargantuan wheel-like mechanism of torture\nOne can only imagine the pain this has brought upon the world.\nThere's a potion placed on it.",
+            "north": "You can vaguely make out the figure of what looks like\na man-sized device in the distance",
+            "east": "A brick wall lined with chains, leather straps and stains of blood",
+            "west": "You can see the entrance to the torture chamber off to the distance",
+            "items": [
+                {
+                    "item": {
+                        "name": "potion_high",
+                        "location": "north"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "potion",
+                        "bottle"
+                    ]
+                }
+            ],
+            "exits": [
+                "west",
+                "north"
+            ],
+            "image": "torture-room-2"
+        },
+        {
+            "coordinates": [3, 5],
+            "text": "North of you is an iron maiden.\nGlimmering on the wall east of you is the imprint of where a key belongs,\nhanging from a rusted chain.",
+            "north": "Chains firmly seal the iron maiden shut,\nyet something presses and bangs against them.\nYou can engage the chains to open the iron maiden",
+            "south": "You see the sect of the torture chamber with the wheel-like contraption",
+            "east": "A key with the emblem of a rope on it.\nBelow it is an enormous axe used by an executioner.",
+            "west": "A mostly empty section of the torture chamber.",
+            "enemies": {
+                "location": "north",
+                "image": "skeleton",
+                "enemies": [ "re_dead" ],
+                "aliases": [
+                    "redead",
+                    "iron maiden",
+                    "maiden",
+                    "iron",
+                    "chains",
+                    "chain"
+                ]
+            },
+            "exits": [
+                "west",
+                "south"
+            ],
+            "items": [
+                {
+                    "item": {
+                        "name": "rope_key",
+                        "location": "east"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "key",
+                        "rope key",
+                        "chain",
+                        "rusted chain",
+                        "rusty chain"
+                    ]
+                },
+                {
+                    "item": {
+                        "name": "hms_headsplitter",
+                        "location": null
+                    },
+                    "type": "weapons",
+                    "aliases": [
+                        "headsplitter",
+                        "axe",
+                        "executioners axe",
+                        "giant axe",
+                        "great axe",
+                        "greataxe"
+                    ]
+                }
+            ],
+            "image": "torture-room-3"
+        },
+        {
+            "coordinates": [2, 5],
+            "text": "You enter a mostly empty part of the torture chamber,\nsave for the meat-hooks attached to chains swaying about the place.",
+            "north": "Two monsters lurch about amongst the chains",
+            "west": "A brick wall lined with chains, leather straps and stains of blood",
+            "east": "You can vaguely make out the figure of what looks like\na man-sized device in the distance",
+            "south": "You see the entrance to the torture chamber.\nThe light looks so promising admist the gloom this area exerts.",
+            "image": "torture-room-1",
+            "enemies": {
+                "location": "north",
+                "image": "zombie",
+                "enemies": [ "zombie", "zombie" ],
+                "aliases": [
+                    "zombies",
+                    "monsters"
+                ]
+            },
+            "exits": [
+                "east",
+                "south"
+            ]
+        },
+        {
+            "coordinates": [0, 5],
+            "text": "You enter a massive - sprawling food court\n",
+            "north": "North of you, on the floor,\nis a knight's halberd",
+            "south": "The entrance to the tea-room",
+            "west": "The path to the west has a statue of a chef",
+            "east": "The path to the east has a butcher's cleaver on the floor",
+            "exits": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ],
+            "image": "kitchen-1",
+            "items": [
+                {
+                    "item": {
+                        "name": "halberd",
+                        "location": "north"
+                    },
+                    "type": "weapons",
+                    "aliases": [
+                        "spear",
+                        "halberd",
+                        "knights halberd",
+                        "knight's halberd"
+                    ]
+                }
+            ]
+        },
+        {
+            "coordinates": [-1, 5],
+            "text": "To the south is a statue of a chef\nNorth contains another section of the food court.",
+            "north": "You see a stone fork on the floor in the section North of you",
+            "south": "A statue of a chef.\nOperate it to change what it's holding",
+            "east": "The entrance of the food court is East of you",
+            "west": "You see a spotless white wall",
+            "image": "kitchen-2",
+            "objects": [
+                {
+                    "aliases": [
+                        "chef",
+                        "statue",
+                        "chef statue",
+                        "chef-statue"
+                    ],
+                    "function": "chef_statue"
+                }
+            ],
+            "exits": [
+                "east",
+                "north"
+            ]
+        },
+        {
+            "coordinates": [1, 5],
+            "text": "You enter a mostly empty part of the food court...",
+            "north": "In the section North of you, there's a dazzling set of armour.",
+            "south": "South of you is a knight-zombie,\nshambling about the mostly pristine dining hall --\nHarshly contrasting the mostly white paint that makes up the walls and ceiling.",
+            "east": "You see a butcher's cleaver on the floor",
+            "west": "The entrance of the food court is West of you",
+            "image": "kitchen-3",
+            "enemies": {
+                "location": "south",
+                "image": "armour_knight",
+                "enemies": [ "armour_knight" ],
+                "aliases": [
+                    "knight",
+                    "knight-zombie",
+                    "knight zombie",
+                    "zombie",
+                    "monster"
+                ]
+            },
+            "items": [
+                {
+                    "item": {
+                        "name": "butcher_cleaver",
+                        "location": "east"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "cleaver",
+                        "butcher cleaver",
+                        "butchers cleaver"
+                    ]
+                }
+            ],
+            "exits": [
+                "north",
+                "west"
+            ]
+        },
+        {
+            "coordinates": [1, 6],
+            "text": "You enter east-middle section of the food court.\nTo the east, you can see a bejewled knight's armour, holding something.",
+            "north": "At the eastern end of the food court, you can see a pot on a shelf with something atop it.",
+            "east": "You see a knight's armour -- a true spectacle to the eyes,\nat least given the myriad of jewels adorning it",
+            "west": "On the section to the west of you, you can vaguely make out a stone fork on the ground.",
+            "south": "The south-east corner of the food court",
+            "image": "kitchen-4",
+            "objects": [
+                {
+                    "aliases": [
+                        "statue",
+                        "armour",
+                        "armor",
+                        "knight",
+                        "knight armor",
+                        "knight armour",
+                        "knights armour",
+                        "knights armor"
+                    ],
+                    "function": "knight_armour"
+                }
+            ],
+            "exits": [
+                "south",
+                "west",
+                "north"
+            ]
+        },
+        {
+            "coordinates": [-1, 6],
+            "text": "You enter the west-middle section of the food court.\nTo your west is a stone fork on the floor.",
+            "south": "A knight-zombie is shambling about the mostly empty food court.",
+            "north": "You see the west-end of the food court.\nA statue of a slab of meat appears to be there.",
+            "east": "You see the central part of the food court.",
+            "west": "On the floor west of you is a large stone fork.",
+            "image": "kitchen-3",
+            "items": [
+                {
+                    "item": {
+                        "name": "stone_fork",
+                        "location": "west"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "fork",
+                        "stone",
+                        "stone fork"
+                    ]
+                }
+            ],
+            "enemies": {
+                "location": "south",
+                "image": "armour_knight",
+                "enemies": [ "armour_knight" ],
+                "aliases": [
+                    "knight",
+                    "monster",
+                    "knight zombie",
+                    "knight-zombie",
+                    "zombie"
+                ]
+            },
+            "exits": [
+                "north",
+                "east",
+                "south"
+            ]
+        },
+        {
+            "coordinates": [0, 6],
+            "text": "You enter the direct centre of the food court.",
+            "north": "Tables and chairs litter the area:\nThis appears to be the main place where people congregate while eating.",
+            "east": "You see a knight's armour to the section east of you",
+            "west": "On the section to the west of you, you can vaguely make out a stone fork on the ground.",
+            "south": "You can see the entrance of the food court",
+            "image": "kitchen-5",
+            "exits": [
+                "east",
+                "west",
+                "south"
+            ]
+        },
+        {
+            "coordinates": [1, 7],
+            "text": "You enter the east end of the food court.\nNorth of you is a pot with something on top of it...",
+            "north": "A large pot without a lid...\nPerhaps you could place something atop it.",
+            "south": "The east-centre of the food court",
+            "east": "A large assortement of tables and chairs blocks your path",
+            "west": "You see a spotless white wall",
+            "image": "kitchen-6",
+            "objects": [
+                {
+                    "aliases": [ "pot" ],
+                    "function": "kitchen_pot"
+                }
+            ],
+            "exits": [
+                "south"
+            ]
+        },
+        {
+            "coordinates": [-1, 7],
+            "text": "You enter the west end of the food court.\nNorth of you is a stone sculpture of a slab of meat.",
+            "north": "There's a stone slab of meat with a divide in it...\nPerhaps you could fit something in it.",
+            "south": "The west-centre of the food court",
+            "west": "A large assortement of tables and chairs blocks your path",
+            "east": "You see a spotless white wall",
+            "image": "kitchen-7",
+            "objects": [
+                {
+                    "aliases": [
+                        "meat",
+                        "slab",
+                        "stone meat slab",
+                        "stone slab",
+                        "meat slab"
+                    ],
+                    "function": "slab_of_meat"
+                }
+            ],
+            "exits": [
+                "south"
+            ]
+        },
+        {
+            "coordinates": [-1, 4],
+            "text": "You enter a dark hallway.\nChains drape from upwards and follow you forward.",
+            "west": "An open doorway -- it's too dark to make out where it leads",
+            "east": "The entrance to the tea room",
+            "north": "You see a potion laying on the ground",
+            "south": "Chains and such litter the walls and ceiling.",
+            "image": "empty-hall",
+            "items": [
+                {
+                    "item": {
+                        "name": "potion_high",
+                        "location": "north"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "potion",
+                        "bottle"
+                    ]
+                }
+            ],
+            "exits": [
+                "west",
+                "east"
+            ]
+        },
+        {
+            "coordinates": [-2, 4],
+            "text": "You enter the holding cell-area for prisoners.\nYou can see something narrow and shining admist the ditritus,\n and dust in one cell.\nThere's also an open doorway to the north.",
+            "north": "An open doorway leading out of the holding cell room.",
+            "south": "You see an open cell with a stiletto knife inside",
+            "east": "The entrance to the dark hallway, leading back to the tea room",
+            "west": "A closed cell with multiple decaying corpses inside;\nThey look as if they were trying to find a way out in their dying moments.\nAdmist all the death is a still shining stiletto dagger.",
+            "image": "cell",
+            "items": [
+                {
+                    "item": {
+                        "name": "stiletto",
+                        "location": "south"
+                    },
+                    "type": "weapons",
+                    "aliases": [
+                        "knife",
+                        "dagger",
+                        "stiletto",
+                        "stiletto knife",
+                        "stiletto dagger"
+                    ]
+                }
+            ],
+            "exits": [
+                "east",
+                "north"
+            ]
+        },
+        {
+            "coordinates": [-2, 5],
+            "text": "You enter a small room -- the wardens office.",
+            "north": "North of you is a gate with two keyholes.\nOne has a rope insignia on it.\nThe other has a helmet insignia.",
+            "west": "A potion is sitting on the wardens desk.",
+            "east": "A bottle of some sort is on the floor",
+            "south": "The exit back to the holding cells",
+            "items": [
+                {
+                    "item": {
+                        "name": "potion",
+                        "location": "west"
+                    },
+                    "type": "items",
+                    "aliases": [ "potion" ]
+                },
+                {
+                    "item": {
+                        "name": "potion_high",
+                        "location": "east"
+                    },
+                    "type": "items",
+                    "aliases": [ "bottle", "high potion" ]
+                }
+            ],
+            "image": "warden-office",
+            "objects": [
+                {
+                    "aliases": [
+                        "door",
+                        "gate",
+                        "gateway",
+                        "doorway"
+                    ],
+                    "function": "warden_gate"
+                }
+            ],
+            "exits": [ "south" ]
+        },
+        {
+            "coordinates": [-2, 6],
+            "text": "You enter the execution room,\nBefore you are three skeletons and a guillotine.\nThe guillotine has a sign on it, saying\n\"Bring forth the head of justice!\"",
+            "north": "To the North is a guillotine.",
+            "east": "East of you are two skeletons in temporary stocks;\nThey died ready for execution.\nThe first one has a name tag that says \"Sir Sampson of Camelot - Desertion\"\nThe second one has a name tag that says \"Roa - charged with Vigilantism\"",
+            "west": "West of you is a skeleton in temporary stocks.\nThe skeleton has a crown and regal robes.\nAround its neck is a sign saying \"King Xavier - Charged with Treason\"",
+            "south": "The exit back to the wardens office",
+            "image": "execution-room",
+            "objects": [
+                {
+                    "aliases": [ "guillotine" ],
+                    "function": "guillotine_riddle"
+                }
+            ],
+            "exits": [ "south" ]
+        },
+        {
+            "coordinates": [-2, 7],
+            "text": "You enter the back room of an arena.\nThere are doors North & West of you.\nThere's also a fountain to the East.",
+            "north": "You see a large gateway leading to the arena...\nYou could operate the Arena-Gate",
+            "south": "You see a blank wall...\nHow exactly did you get here?\nOn the floor are several bottles neatly layed down, alongside a katana.",
+            "west": "You see a large gate labelled \"ARMOURY\"\nYou could operate the Armoury-Gate",
+            "east": "To the east is a grand fountain.\nIt looks like it could heal you.",
+            "image": "arena-backroom",
+            "objects": [
+                {
+                    "aliases": [
+                        "arena gate",
+                        "arena-gate",
+                        "arena"
+                    ],
+                    "function": "arena_gate"
+                },
+                {
+                    "aliases": [
+                        "armoury gate",
+                        "armoury-gate",
+                        "armory gate",
+                        "armory-gate",
+                        "armoury",
+                        "armory"
+                    ],
+                    "function": "armoury_gate"
+                },
+                {
+                    "aliases": [ "fountain" ],
+                    "function": "purification_fountain"
+                }
+            ],
+            "items": [
+                {
+                    "item": {
+                        "name": "potion",
+                        "location": null
+                    },
+                    "type": "items",
+                    "aliases": [ "potion" ]
+                },
+                {
+                    "item": {
+                        "name": "potion_high",
+                        "location": null
+                    },
+                    "type": "items",
+                    "aliases": [ "potion" ]
+                },
+                {
+                    "item": {
+                        "name": "potion_high",
+                        "location": null
+                    },
+                    "type": "items",
+                    "aliases": [ "potion" ]
+                },
+                {
+                    "item": {
+                        "name": "tachi",
+                        "location": "south"
+                    },
+                    "type": "weapons",
+                    "aliases": [
+                        "tachi",
+                        "katana",
+                        "sword",
+                        "blade"
+                    ]
+                }
+            ],
+            "exits": [ "west" ]
+        },
+        {
+            "coordinates": [-2, 8],
+            "text": "You're at the entrance of the arena.",
+            "north": "The central section of the arena",
+            "south": "South of you is the exit, leading to the back room",
+            "east": "East of you is a section of the arena swarming with skeletons",
+            "west": "West of you is a section of the arena where the corpses and skeletons\nlittering the place appear to be pulverized by something titanic.",
+            "image": "arena",
+            "enemies": {
+                "location": null,
+                "image": "were-panther",
+                "enemies": [ "were-panther", "were-panther" ],
+                "aliases": [ "monsters" ]
+            },
+            "exits": [
+                "north",
+                "south",
+                "east",
+                "west"
+            ]
+        },
+        {
+            "coordinates": [-2, 9],
+            "text": "You find yourself in the center of an arena.\nThe scent of death and the fury of battle cloud your senses.\nYou look around for something to kill.\n(engage monsters to fight anywhere in the arena)",
+            "north": "The section north of you contains a mighty minotaur guarding the exit.",
+            "south": "The section south of you contains the entrance to the arena;\nPerhaps you can get to the back room again.",
+            "east": "The section east of you has a desk containing an assortment of bottles.",
+            "west": "The section west of you may have something to kill",
+            "image": "arena",
+            "enemies": {
+                "location": null,
+                "image": "skeleton-gladiator",
+                "enemies": [ "skeletal_guard", "skeletal_guard" ],
+                "aliases": [ "monsters" ]
+            },
+            "items": [
+                {
+                    "item": {
+                        "name": "potion_high",
+                        "location": null
+                    },
+                    "type": "items",
+                    "aliases": [ "potion" ]
+                }
+            ],
+            "exits": [
+                "north",
+                "east",
+                "south",
+                "west"
+            ]
+        },
+        {
+            "coordinates": [-1, 8],
+            "text": "You arrive in the South-East end of the Arena",
+            "north": "To the North, you see an assortment of tinctures and potions on a desk.",
+            "east": "You see several skeletons - looking ready to fight",
+            "west": "The section west of you leads to the entrance of the arena.",
+            "south": "There's a potion on the floor to the South",
+            "image": "arena",
+            "items": [
+                {
+                    "item": {
+                        "name": "potion_high",
+                        "location": "south"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "potion",
+                        "high potion",
+                        "bottle"
+                    ]
+                }
+            ],
+            "enemies": {
+                "location": "east",
+                "image": "skeleton-gladiator",
+                "enemies": [
+                    "gladiator"
+                ],
+                "aliases": [
+                    "monsters",
+                    "skeletons",
+                    "gladiator"
+                ]
+            },
+            "exits": [
+                "west",
+                "north"
+            ]
+        },
+        {
+            "coordinates": [-3, 8],
+            "text": "You enter the South-West end of the Arena.",
+            "north": "To the section North, you see a skeleton sitting still.",
+            "south": "There's a potion on the floor to the South",
+            "east": "The section east of you leads to the entrance of the arena.",
+            "west": "You see a gargantuan ape - it looks like it could crush you within an instant",
+            "image": "arena",
+            "enemies": {
+                "location": "west",
+                "image": "ape",
+                "enemies": [ "lesser_ape" ],
+                "aliases": [
+                    "monsters",
+                    "ape",
+                    "giant ape",
+                    "lesser ape"
+                ]
+            },
+            "exits": [
+                "north",
+                "east"
+            ]
+        },
+        {
+            "coordinates": [-1, 9],
+            "text": "You enter the East-central section of the Arena",
+            "north": "North of you is the North-East end of the Arena",
+            "east": "A selection of elixirs stands before you.\nAmong them, a black one takes your interest.",
+            "west": "To the west, you see the central section of the Arena.",
+            "south": "To the south is the South-East end of the Arena",
+            "image": "arena",
+            "items": [
+                {
+                    "item": {
+                        "name": "devils_elixir",
+                        "location": "east"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "elixir",
+                        "bottle",
+                        "potion",
+                        "black elixir",
+                        "black bottle",
+                        "black potion"
+                    ]
+                }
+            ],
+            "enemies": {
+                "location": null,
+                "image": "stolas",
+                "enemies": [ "stolas", "archdemon" ],
+                "aliases": [
+                    "monsters"
+                ]
+            },
+            "exits": [
+                "north",
+                "west",
+                "south"
+            ]
+        },
+        {
+            "coordinates": [-3, 9],
+            "text": "You arrive in the West-Central section of the Arena.",
+            "north": "North of you is the North-West end of the Arena.",
+            "south": "South of you is the South-West end of the Arena.",
+            "west": "West of you are two monsters:\nAn owl demon and a skeletal gladiator.",
+            "east": "East of you is the central section of the Arena.",
+            "image": "arena",
+            "enemies": {
+                "location": "west",
+                "image": "stolas",
+                "enemies": [
+                    "stolas",
+                    "skeletal_guard"
+                ],
+                "aliases": [
+                    "owl",
+                    "monsters",
+                    "skeleton",
+                    "gladiator"
+                ]
+            },
+            "exits": [
+                "north",
+                "south",
+                "east"
+            ]
+        },
+        {
+            "coordinates": [-3, 10],
+            "text": "You arrive in the North-West end of the Arena.",
+            "north": "North of you is an owl demon, accompanied by others",
+            "south": "The West-Central section of the Arena.",
+            "west": "A potion is on the floor",
+            "east": "East of you is the central-end of the Arena\nIt also contains the exit of the Arena.",
+            "image": "arena",
+            "items": [
+                {
+                    "item": {
+                        "name": "potion_high",
+                        "location": "west"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "potion",
+                        "bottle"
+                    ]
+                }
+            ],
+            "enemies": {
+                "location": "north",
+                "image": "stolas",
+                "enemies": [
+                    "stolas",
+                    "re_dead",
+                    "re_dead"
+                ],
+                "aliases": [
+                    "monsters",
+                    "demon",
+                    "owl",
+                    "owl demon"
+                ]
+            },
+            "exits": [
+                "east",
+                "south"
+            ]
+        },
+        {
+            "coordinates": [-1, 10],
+            "text": "You arrive in the North-East end of the Arena.",
+            "north": "North of you is a Stolas.\nAn owl-like demon with limitless arcane power.",
+            "south": "The East-Central section of the Arena.",
+            "east": "A potion is on the floor",
+            "west": "West of you is the central-end of the Arena\nIt also contains the exit of the Arena.",
+            "image": "arena",
+            "items": [
+                {
+                    "item": {
+                        "name": "potion_high",
+                        "location": "east"
+                    },
+                    "type": "items",
+                    "aliases": [
+                        "potion",
+                        "bottle"
+                    ]
+                }
+            ],
+            "enemies": {
+                "location": "north",
+                "image": "stolas",
+                "enemies": [
+                    "stolas",
+                    "re_dead",
+                    "re_dead"
+                ],
+                "aliases": [
+                    "monsters",
+                    "stolas",
+                    "demon"
+                ]
+            },
+            "exits": [
+                "west",
+                "south"
+            ]
+        },
+        {
+            "coordinates": [-2, 10],
+            "text": "You arrive at the central-exit of the Arena",
+            "north": "North of you is a gateway leading to the exit of the Arena.\nA light spills through it -- the exit of this entire place.",
+            "east": "The North-East end of the Arena.",
+            "west": "The North-West end of the Arena.",
+            "south": "The central section of the Arena",
+            "image": "arena",
+            "exits": [
+                "south",
+                "west",
+                "east"
+            ],
+            "objects": [
+                {
+                    "aliases": [
+                        "gateway",
+                        "gate",
+                        "door"
+                    ],
+                    "function": "arena_gate_exit"
+                }
+            ]
+        }
+    ]
+}

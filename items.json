@@ -1,0 +1,228 @@
+{
+    "items": {
+        "potion": {
+            "name": "Potion",
+            "effect": "healing",
+            "amount": 10,
+            "description": "Heals for 10 health"
+        },
+        "potion_high": {
+            "name": "High Potion",
+            "effect": "healing",
+            "amount": 20,
+            "description": "Heals for 20 health"
+        },
+        "stat_token": {
+            "name": "Stat Token",
+            "effect": "stat_increase",
+            "amount": 1,
+            "description": "Use to increase one of your stats by 1"
+        },
+        "devils_elixir": {
+            "name": "The Devil's Elixir",
+            "effect": "cursed_stat_increase",
+            "amount": 3,
+            "description": "A cursed tincture made by alchemists and tempered by demons.\nIncreases all of your stats by 3 at a cost..."
+        },
+        "painting_0": {
+            "name": "Abyss Depiction",
+            "effect": "place",
+            "description": "It's pure black -- the label on it says 'The Abyss'"
+        },
+        "painting_1": {
+            "name": "Cell Diagram",
+            "effect": "place",
+            "description": "A stipled diagram of what's labelled as a 'primieval cell'"
+        },
+        "painting_2": {
+            "name": "Plant Painting",
+            "effect": "place",
+            "description": "A painting of tree in a meadow"
+        },
+        "painting_3": {
+            "name": "Fish Sketch",
+            "effect": "place",
+            "description": "A sketch depicting schooling fish traversing the seas"
+        },
+        "painting_4": {
+            "name": "Depiction of Man",
+            "effect": "place",
+            "description": "A painting that depicts Adam from the Book of Genesis"
+        },
+        "painting_5": {
+            "name": "Painting of the End",
+            "effect": "place",
+            "description": "A painting that depicts a great smog in the sky,\n above remnants of advanced architecture"
+        },
+        "red_key": {
+            "name": "Red Key",
+            "effect": null,
+            "description": "A ruby-red key"
+        },
+        "blue_key": {
+            "name": "Blue Key",
+            "effect": null,
+            "description": "A sapphire-blue key"
+        },
+        "rope_key": {
+            "name": "Rope Key",
+            "effect": null,
+            "description": "A key bearing the emblem of a hangman's rope"
+        },
+        "stone_spoon": {
+            "name": "Stone Spoon",
+            "effect": "place",
+            "description": "A large spoon carved from stone"
+        },
+        "stone_fork": {
+            "name": "Stone Fork",
+            "effect": "place",
+            "description": "A large fork carved from stone"
+        },
+        "jewel_claymore": {
+            "name": "Bejeweled Claymore",
+            "effect": "place",
+            "description": "A jewel-encrusted claymore:\nUnfit for use in combat but it would look great as a decoration"
+        },
+        "pot_lid": {
+            "name": "Pot Lid",
+            "effect": "place",
+            "description": "The lid of a pot"
+        },
+        "jewel_shield": {
+            "name": "Bejeweled Shield",
+            "effect": "place",
+            "description": "A large shield adorned with many valuable gems\nUnusable in combat but it makes for quite dazzling decor"
+        },
+        "butcher_cleaver": {
+            "name": "Butcher's Cleaver",
+            "effect": "place",
+            "description": "A cleaver used by a butcher.\nThe blade looks like it's never been sharpened,\nso it looks more like a decoration than anything else."
+        },
+        "helmet_key": {
+            "name": "Helmet Key",
+            "effect": null,
+            "description": "A key bearing the emblem of a royal guard's helmet"
+        }
+    },
+    "weapons": {
+        "dulled_katana": {
+            "name": "Dulled Katana",
+            "damage": 5,
+            "type": "shortSword",
+            "description": "A blade that's almost entirely dull.\nMostly from lack of care between many uses"
+        },
+        "cracked_spear": {
+            "name": "Cracked Broadhead-Spear",
+            "damage": 3,
+            "speed": 2,
+            "type": "spear",
+            "description": "A knights' spear with several hairline cracks down the tip"
+        },
+        "rusty_zweihander": {
+            "name": "Rusty Zweihander",
+            "damage": 8,
+            "speed": -2,
+            "type": "greatSword",
+            "description": "A blade that's been drenched in the blood of its opponents\nuntil it rusted to the point of unwieldiness.\nThe rusting has left its weight balancing off-centre."
+        },
+        "spatha": {
+            "name": "Spatha",
+            "damage": 6,
+            "type": "shortSword",
+            "description": "A standard-issue blade of the Roman army"
+        },
+        "pushdagger": {
+            "name": "Push-dagger",
+            "damage": 5,
+            "defence": -1,
+            "speed": 1,
+            "type": "dagger",
+            "description": "A dagger that will fit neatly into your fist, allowing for a devestatingly lethal punch."
+        },
+        "stiletto": {
+            "name": "Stiletto-dagger",
+            "damage": 5,
+            "speed": 3,
+            "defence": -2,
+            "type": "dagger",
+            "description": "A dagger favoured by assassins.\nThe blade is still stained from its last use."
+        },
+        "hms_headsplitter": {
+            "name": "Headsman's Headsplitter",
+            "damage": 10,
+            "speed": -3,
+            "type": "greatSword",
+            "description": "A brutal and merciless axe, much like the man who wields it."
+        },
+        "halberd": {
+            "name": "Halberd",
+            "damage": 7,
+            "speed": 2,
+            "type": "spear",
+            "description": "A midieval weapon favoured by all forms of law enforcement\nfor its superior reach and combination axe/spear tip."
+        },
+        "tachi": {
+            "name": "Tachi",
+            "damage": 13,
+            "type": "shortSword",
+            "description": "A Japanese longsword.\nIts sheath is adorned with most beautiful gold designs."
+        },
+        "rusty_dragonslayer": {
+            "name": "Rusted Dragonslayer",
+            "damage": 18,
+            "speed": -4,
+            "type": "greatSword",
+            "description": "Legend says this weapon was wielded by a man\nwho strengthened it fusing it with human blood and bone...\nThe blade eventually shattered, as if refusing to take part in such degeneracy;\nWhat makes you think you have the right to revive this sinful weapon?"
+        },
+        "iron_will": {
+            "name": "Iron Will",
+            "damage": 24,
+            "speed": -5,
+            "type": "greatSword",
+            "description": "I am a blade wrought of the wretchedness of my wielder's soul\nand tempered in death.\nI am a weapon. I am Iron Will."
+        },
+        "leonidus_dory": {
+            "name": "Leonidus' Dory",
+            "damage": 14,
+            "speed": 4,
+            "type": "spear",
+            "description": "A beautiful broadhead spear wielded by the mightiest king of Greece's strongest army"
+        },
+        "masamune": {
+            "name": "The Masamune",
+            "damage": 16,
+            "defence": 1,
+            "type": "shortSword",
+            "description": "The most dazzling weapon of the finest swordsmith to ever live"
+        },
+        "gotz_zweihander": {
+            "name": "Gotz' Flammenschwert",
+            "damage": 18,
+            "speed": -2,
+            "type": "greatSword",
+            "description": "A greatsword with a flamelike design on the blade.\nRumoured to be used by Gotz of The Iron Hand."
+        },
+        "kusanagi": {
+            "name": "Kusanagi",
+            "damage": 18,
+            "speed": -2,
+            "type": "greatSword",
+            "description": "Legend says this weapon was used by a young man who ended humanity for the sake of his sister...\nOr was it a man who ended it all for his daughter?\nTime has a way of distorting such things."
+        },
+        "muramasa": {
+            "name": "Muramasa",
+            "damage": 16,
+            "defence": 1,
+            "type": "shortSword",
+            "description": "A crimson-stained saber that cannot rust, no matter how much blood spilled by and on it"
+        },
+        "dragoon_lance": {
+            "name": "Dragoon's Lance",
+            "damage": 14,
+            "speed": 4,
+            "type": "spear",
+            "description": "A shimmering - golden symbol of the unbreakable bond between dragon and rider\nRumours say the owner of this lance doomed humanity after descending from the Heavens."
+        }
+    }
+}

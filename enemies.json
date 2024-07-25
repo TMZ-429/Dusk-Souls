@@ -1,0 +1,284 @@
+{
+    "enemies": {
+        "zombie": {
+            "name": "Zombie",
+            "health": 6,
+            "speed": 5,
+            "attacks": [
+                {
+                    "name": "Slash",
+                    "damage": 3,
+                    "chance": 30
+                },
+                {
+                    "name": "Swipe",
+                    "damage": 1,
+                    "chance": 100
+                }
+            ]
+        },
+        "ghoul": {
+            "name": "Black-Ghoul",
+            "health": 3,
+            "speed": 4,
+            "attacks": [
+                {
+                    "name": "Reap",
+                    "damage": 3,
+                    "chance": 30
+                },
+                {
+                    "name": "Scratch",
+                    "damage": 1,
+                    "chance": 100
+                }
+            ]
+        },
+        "wolf": {
+            "name": "Fenrir",
+            "health": 3,
+            "speed": 6,
+            "attacks": [
+                {
+                    "name": "Crunch",
+                    "damage": 2,
+                    "chance": 20
+                },
+                {
+                    "name": "Bite",
+                    "damage": 1,
+                    "chance": 100
+                }
+            ]
+        },
+        "skeleton": {
+            "name": "Skeleton Cyclops",
+            "health": 9,
+            "speed": 4,
+            "attacks": [
+                {
+                    "name": "Head Smash",
+                    "damage": 4,
+                    "chance": 20
+                },
+                {
+                    "name": "Punch",
+                    "damage": 2,
+                    "chance": 100
+                }
+            ]
+        },
+        "skeletal_guard": {
+            "name": "Skeleton Guard",
+            "health": 15,
+            "speed": 4,
+            "attacks": [
+                {
+                    "name": "Head Smash",
+                    "damage": 4,
+                    "chance": 20
+                },
+                {
+                    "name": "Punch",
+                    "damage": 2,
+                    "chance": 100
+                }
+            ]
+        },
+        "armour_knight" : {
+            "name": "Armour Knight",
+            "health": 10,
+            "speed": 3,
+            "attacks": [
+                {
+                    "name": "Savage Strike",
+                    "damage": 5,
+                    "chance": 15
+                },
+                {
+                    "name": "Slash",
+                    "damage": 3,
+                    "chance": 100
+                }
+            ]
+        },
+        "re_dead": {
+            "name": "reDead",
+            "health": 20,
+            "speed": 7,
+            "attacks": [
+                {
+                    "name": "Brutal Fist",
+                    "damage": 4,
+                    "chance": 10
+                },
+                {
+                    "name": "Reap",
+                    "damage": 3,
+                    "chance": 40
+                },
+                {
+                    "name": "Crunch",
+                    "damage": 2,
+                    "chance": 100
+                }
+            ]
+        },
+        "gladiator": {
+            "name": "Skeleton Gladiator",
+            "health": 30,
+            "speed": 8,
+            "attacks": [
+                {
+                    "name": "Wicked Strike",
+                    "damage": 6,
+                    "chance": 30
+                },
+                {
+                    "name": "Shield Bash",
+                    "damage": 5,
+                    "chance": 50
+                },
+                {
+                    "name": "Slash",
+                    "damage": 3,
+                    "chance": 100
+                }
+            ]
+        },
+        "were-panther": {
+            "name": "Were-Panther",
+            "health": 23,
+            "speed": 13,
+            "attacks": [
+                {
+                    "name": "Uppercut",
+                    "damage": 5,
+                    "chance": 20
+                },
+                {
+                    "name": "Power Chop",
+                    "damage": 4,
+                    "chance": 100
+                }
+            ]
+        },
+        "lesser_ape": {
+            "name": "Lesser Ape",
+            "health": 39,
+            "speed": 5,
+            "attacks": [
+                {
+                    "name": "Double-Fisted Crush",
+                    "damage": 10,
+                    "chance": 10
+                },
+                {
+                    "name": "Power Fist",
+                    "damage": 4,
+                    "chance": 100
+                }
+            ]
+        },
+        "greater_ape": {
+            "name": "Greater Ape",
+            "health": 50,
+            "speed": 5,
+            "attacks": [
+                {
+                    "name": "Double-Fisted Crush",
+                    "damage": 10,
+                    "chance": 10
+                },
+                {
+                    "name": "Earthquake",
+                    "damage": 6,
+                    "chance": 50
+                },
+                {
+                    "name": "Power Fist",
+                    "damage": 5,
+                    "chance": 100
+                }
+            ]
+        },
+        "archdemon": {
+            "name": "ArchDemon",
+            "health": 23,
+            "speed": 10,
+            "attacks": [
+                {
+                    "name": "Blue Flare",
+                    "damage": 7,
+                    "chance": 30
+                },
+                {
+                    "name": "Moonlight",
+                    "damage": 5,
+                    "chance": 50
+                },
+                {
+                    "name": "Demon Frenzy",
+                    "damage": 3,
+                    "chance": 100
+                }
+            ]
+        },
+        "stolas": {
+            "name": "Stolas",
+            "health": 25,
+            "speed": 9,
+            "attacks": [
+                {
+                    "name": "Devil's Gaze",
+                    "damage": 5,
+                    "chance": 15
+                },
+                {
+                    "name": "Demon Frenzy",
+                    "damage": 3,
+                    "chance": 100
+                }
+            ]
+        },
+        "devil": {
+            "name": "Devil",
+            "health": 66,
+            "speed": 10,
+            "attacks": [
+                {
+                    "name": "Black Flame",
+                    "damage": 9,
+                    "chance": 15
+                },
+                {
+                    "name": "Dark Flare",
+                    "damage": 5,
+                    "chance": 40
+                },
+                {
+                    "name": "Blackout",
+                    "damage": 4,
+                    "chance": 100
+                }
+            ]
+        },
+        "demon-dragon-head": {
+            "name": "Demon Dragon Head",
+            "health": 30,
+            "speed": 6,
+            "attacks": [
+                {
+                    "name": "Flame Breath",
+                    "damage": 5,
+                    "chance": 10
+                },
+                {
+                    "name": "Slam",
+                    "damage": 3,
+                    "chance": 70
+                }
+            ]
+        }
+    }
+}
