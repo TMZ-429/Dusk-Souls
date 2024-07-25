@@ -14,6 +14,7 @@ DEBUG = 0
 #You can also flip this variable without changing it by making your save name 'rebug' 
 
 #TODO:
+#Make map & item files always loaded in memory, as to not constantly waste processing power in loading and unloading them, as they're gigantic files
 #Make the max_health / current_health system for outside of battles
 #Make the break rooms heal you to full
 #Stat reset option
@@ -628,6 +629,8 @@ USE <item name>"""
 def load_room(stdscr, player):
     x = player["coordinates"][0]
     y = player["coordinates"][1]
+    #Tried saving on memory during overall play by not having the game constantly have the map data loaded and only do it when it needs to.
+    #In retrospect, I think this is a severe waste of processing power that will only become more apparent as map data gets bigger...
     with open('./rooms.json', 'r') as rooms:
         rooms = json.load(rooms)
         for room in rooms["rooms"]:
